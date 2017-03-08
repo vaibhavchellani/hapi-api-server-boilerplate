@@ -1,0 +1,27 @@
+{
+  "name": "hapi-api-server-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for Hapi api servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js",
+    "env": "node ./node_modules/envmanager/generateEnv.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackMerced/hapi-api-server-boilerplate.git"
+  },
+  "author": "HackMerced (Shubham Naik)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HackMerced/hapi-api-server-boilerplate/issues"
+  },
+  "homepage": "https://github.com/HackMerced/hapi-api-server-boilerplate#readme",
+  "dependencies": {
+    "boom": "^4.2.0",
+    "dotenv": "^4.0.0",
+    "envmanager": "^1.1.2",
+    "hapi": "^16.1.0"
+  }
+}
