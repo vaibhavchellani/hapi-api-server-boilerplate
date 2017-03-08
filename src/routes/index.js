@@ -1,8 +1,10 @@
+const fs = require("fs");
+
 module.exports = function(server){
   // Bad Route
   server.route({
       method: 'GET',
-      path:'/',
+      path:'/bad',
       handler: function (request, reply) {
           return reply(Boom.badRequest('Unsupported parameter'));
       }
@@ -13,7 +15,9 @@ module.exports = function(server){
       method: 'GET',
       path:'/',
       handler: function (request, reply) {
-          return reply("<h1>Hello</h1>");
+        fs.readFile("./serve/html/index.html", 'utf8', function(err, content){
+          return reply(content);
+        });
       }
   });
 

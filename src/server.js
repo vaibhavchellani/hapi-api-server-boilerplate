@@ -20,8 +20,8 @@ module.exports = function(){
     encoding: 'base64json'
   });
 
-  require("./routes/index.js");
-  require("./routes/services.js");
+  require("./routes/index.js")(server);
+  require("./services/index.js")(server);
 
   // Start the server
   server.start((err) => {
