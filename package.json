@@ -6,6 +6,7 @@
   "scripts": {
     "test": "mocha",
     "start": "node index.js",
+    "build":"npm install && npm run env",
     "env": "node ./node_modules/envmanager/generateEnv.js"
   },
   "repository": {
