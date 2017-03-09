@@ -2,8 +2,7 @@
 The HackMerced Hapi API server boilerplate is a boilerplate used by HackMerced internally for some of their projects. This can be used by anyone as a very vanilla and barebones [`Hapi`](https://github.com/hapijs/hapi) installation with only 5 dependencies.
 
 [HackMerced](http://hackmerced.com) |
-[Sponsor Us!](http://hackmerced.com/sponsor) |
-[Blog](https://blog.hackmerced.com/)
+[Sponsor Us!](http://hackmerced.com/sponsor) 
 
 ## Usage
 
@@ -17,6 +16,8 @@ To run the server do:
 ```
 $ npm start
 ```
+
+Your website should appear on [localhost:4994](http://localhost:4994)
 
 To adjust environmental variables, edit the `.env_template` file and do:
 ```
