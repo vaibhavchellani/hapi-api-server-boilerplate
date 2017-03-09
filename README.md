@@ -19,11 +19,8 @@ $ npm start
 
 Your website should appear on [localhost:4994](http://localhost:4994)
 
-To adjust environmental variables, edit the `.env_template` file and do:
-```
-$ npm run env
-```
-More information on: [envmanager](https://github.com/4shub/envmanager)
+
+If you would like to initialize a template of env variables, follow the instructions on [envmanager](https://github.com/4shub/envmanager) to use `.env_template` to it's best potential.
 
 ## Dependencies
  * [hapi](https://github.com/hapijs/hapi) - As our web-server
