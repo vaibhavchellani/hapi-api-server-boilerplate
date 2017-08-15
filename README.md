@@ -9,6 +9,7 @@ The HackMerced Hapi API server boilerplate is a boilerplate used by HackMerced i
 Just do the following to install it onto your computer, make sure you have NPM
 ```
 $ git clone https://github.com/HackMerced/hapi-api-server-boilerplate your-project-name
+$ cd your-project-name 
 $ npm run build
 ```
 
